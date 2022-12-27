@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class GuestsRecord {
+    public static void main(String[] args) {
+       Menu();
+
+    }
+
+public static void TamuUndangan(EventOrganiser[] s){
+Scanner InputUser = new Scanner(System.in);
+        for(int i = 0; i < s.length; i++ ){
+            s[i] = new EventOrganiser();
+            System.out.print("Masukkan  Id (3digit): ");
+            int InputId = InputUser.nextInt();
+            System.out.print("Masukkan Nama anda: ");
+            String InputName = InputUser.next();
+            System.out.print("Masukkan Alamat anda: ");
+            String InputAddr = InputUser.next();
+            System.out.print("Masukkan Email anda: ");
+            String InputEmail = InputUser.next();
+            System.out.print("Masukkan No.Hp anda: ");
+            int InputPhone = InputUser.nextInt();
+            }
+        //        Gagal
+        //        Bingung buanget
+        //        M.ilham r.a
+        //        EventOrganiser tamu1= new EventOrganiser();
+        //        System.out.println("===================");
+        //        System.out.println("...THE WEDDING OF...");
+        //        System.out.println("===================");
+        //        System.out.println(".......Ilham.......");
+        //        System.out.println("........Dan........");
+        //        System.out.println(".......Jenny.......");
+        //        System.out.println("===================");
+        //        System.out.println("Undangan Pernikahan");
+        //        tamu1.setCUSTname("Sri Handayani");
+        //        tamu1.setCUSTaddress("Ds.Pepedan");
+        //        tamu1.setCUSTemail("srihahaha@gmail.com");
+        //        tamu1.setCUSTphone("000000000");
+        //        tamu1.setCUSTid(1);
+        //        System.out.println("Nama : "+tamu1.getCUSTname());
+        //        System.out.println("Alamat : "+tamu1.getCUSTaddress());
+        //        System.out.println("Email : "+tamu1.getCUSTemail());
+        //        System.out.println("No.Hp : "+tamu1.getCUSTphone());
+
+  }
+ }
+}
