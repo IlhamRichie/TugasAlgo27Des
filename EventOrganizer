@@ -1,0 +1,74 @@
+public class EventOrganiser {
+    private int CUSTid;
+    private String CUSTname;
+    private String CUSTaddr;
+    private String CUSTemail;
+    private int CUSTphone;
+
+
+    public int getCUSTid() {
+        return CUSTid;
+    }
+    public void setCUSTid(int CUSTid) {
+        this.CUSTid = CUSTid;
+    }
+
+    public String getCUSTname() {
+        return CUSTname;
+    }
+    public void setCUSTname(String CUSTname) {
+        this.CUSTname = CUSTname;
+    }
+
+    public String getCUSTaddr() {
+        return CUSTaddr;
+    }
+    public void setCUSTaddr(String CUSTaddr) {
+        this.CUSTaddr = CUSTaddr;
+    }
+
+    public String getCUSTemail() {
+        return CUSTemail;
+    }
+    public void setCUSTemail(String CUSTemail) {
+        this.CUSTemail = CUSTemail;
+    }
+
+    public int getCUSTphone() {
+        return CUSTphone;
+    }
+    public void setCUSTphone(int CUSTphone) {
+        this.CUSTphone = CUSTphone;
+    }
+
+
+    public EventOrganiser(){
+    }
+
+    public EventOrganiser(int CUSTid, String CUSTname, String CUSTaddr, String CUSTemail, int CUSTphone){
+        this.CUSTid = CUSTid;
+        this.CUSTname = CUSTname;
+        this.CUSTaddr = CUSTaddr;
+        this.CUSTemail = CUSTemail;
+        this.CUSTphone = CUSTphone;
+    }
+
+    public void PrintGuests(EventOrganiser[]tamu){
+System.out.println("===================================");
+        System.out.println("==========THE WEDDING OF===========");
+System.out.println("==============ILHAM===============");
+System.out.println("===============DAN================");
+System.out.println("==============JENNY===============");
+System.out.println("===================================");
+
+        for(int i = 0; i < guests.length; i++){
+            System.out.println("========Tamu " + (i+1) + " ========");
+            System.out.println("ID: " + getCUSTid());
+            System.out.println("Nama: " + getCUSTname());
+            System.out.println("Alamat: " + getCUSTaddr());
+            System.out.println("Email: " + getCUSTemail());
+            System.out.println("Phone: " + getCUSTphone());
+
+        }
+    }
+}
